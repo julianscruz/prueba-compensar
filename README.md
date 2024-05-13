@@ -2,6 +2,10 @@
 
 Este repositorio contiene el código desarrollado para la prueba técnica de Compensar. Se trata de una aplicación de encuestas desarrollada con las tecnologías especificadas. A continuación, se detallan los aspectos más relevantes del proyecto:
 
+**DEMO:** [Prueba Técnica COMPENSAR - Profesional de Innovación y Desarrollo Digital Junior]([https://7wmbjxblzi.execute-api.us-east-1.amazonaws.com/](https://develop.d2w6lujnbw7o1r.amplifyapp.com/))
+
+La documentación del Back (API), generada con postman se puede consultar en: [prueba-compensar-api](https://documenter.getpostman.com/view/18192740/2sA3JNcMNz))
+
 ## Tecnologías Utilizadas
 
 - **Frontend:** El frontend se ha desarrollado utilizando Vite y React, aprovechando las ventajas de estas tecnologías para crear interfaces web dinámicas y eficientes.
