@@ -1,0 +1,22 @@
+{
+  "name": "back-prueba-compensar",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "keywords": [],
+  "author": "Julian S Cruz <julianscruz@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start": "sls offline start",
+    "deploy": "sls deploy"
+  },
+  "devDependencies": {
+    "serverless": "^3.38.0",
+    "serverless-offline": "^13.5.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.574.0",
+    "@aws-sdk/util-dynamodb": "^3.574.0",
+    "bcryptjs": "^2.4.3"
+  }
+}

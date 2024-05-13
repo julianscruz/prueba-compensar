@@ -1,0 +1,43 @@
+service: prueba-compensar
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  profile: julianscruz
+  environment:
+    DYNAMODB_TABLE: prueba-compensar
+
+  iam:
+    role:
+      statements:
+      - Effect: Allow
+        Action:
+          - dynamodb:*
+        Resource: "*"
+
+functions:
+  prueba-compensar:
+    handler: handler.main
+    events:
+      - httpApi:
+          path: /login
+          method: POST
+      - httpApi:
+          path: /register
+          method: POST
+      - httpApi:
+          path: /survey
+          method: POST
+      - httpApi:
+          path: /user/{id}
+          method: GET
+  consult:
+    handler: handler.query
+    events:
+      - httpApi:
+          path: /
+          method: GET
+
+plugins:
+  - serverless-offline

@@ -1,0 +1,39 @@
+.user {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 15px;
+
+	position: fixed;
+	top: 10%;
+	/*left: 50%;*/
+	/*transform: translate(-50%, -50%)*/
+}
+
+.user-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.user-info-item {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	gap: 15px;
+}
+
+.user-info-title {
+	font-weight: bold;
+	width: 400px;
+	text-align: right;
+}
+
+.user-info-data {
+	width: 400px;
+	text-align: left;
+}

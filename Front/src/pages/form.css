@@ -1,0 +1,97 @@
+/* Estilos para los inputs */
+input {
+	width: 369px;
+	height: 62px;
+	gap: 0px;
+	border-radius: 8px;
+	border: none;
+	opacity: 0px;
+	background: #F3F4F6;
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22.5px;
+	text-align: left;
+	color: #1F2937;
+	outline: none;
+	padding-left: 20px;
+}
+
+/* Estilos para el botón de submit */
+input[type="submit"] {
+	width: 369px;
+	height: 59px;
+	gap: 0px;
+	border-radius: 9px;
+	opacity: 0px;
+	background: #FF6600;
+	box-shadow: 0px 4px 61px 0px #4D47C366;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: center;
+	color: #F9F9F9;
+	cursor: pointer;
+	padding: 0;
+}
+
+.password-field {
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+}
+
+.forgot-password {
+	color: #B0B0B0;
+	font-family: Poppins;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 19.5px;
+	text-align: left;
+	margin-left: auto;
+}
+
+.error-message {
+	color: red;
+	font-family: Poppins;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 19.5px;
+	text-align: left;
+	right: 0px;
+}
+
+.other-options {
+	margin-top: 47px;
+}
+
+.other-options * {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: center;
+	color: #B5B5B5;
+}
+
+.other-options span {
+	margin-top: 43px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.other-options span img {
+	cursor: pointer;
+}
+
+.load {
+	background-image: url('../assets/spinner.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
